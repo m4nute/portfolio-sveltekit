@@ -1,11 +1,12 @@
 <script lang="ts">
   import * as Tooltip from "$lib/shadcn/ui/tooltip"
   export let text: string
+  export let y: number
 </script>
 
 <Tooltip.Root openDelay={120}>
   <Tooltip.Trigger>
-    <button class="bg-[#393939] p-2 rounded-lg hover:scale-105 duration-150 transition-transform">
+    <button class="{y > 70 ? 'bg-[#393939]' : 'bg-transparent'}  p-2 rounded-lg hover:scale-105 duration-150 transition-transform">
       <slot />
     </button>
   </Tooltip.Trigger>
