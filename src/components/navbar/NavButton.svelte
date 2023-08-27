@@ -6,11 +6,11 @@
 
 <Tooltip.Root openDelay={120}>
   <Tooltip.Trigger>
-    <button class="{y > 70 ? 'bg-[#393939]' : 'bg-transparent'}  p-2 rounded-lg hover:scale-105 duration-150 transition-transform">
+    <button class="{y > 70 ? 'bg-[#e1e1e1] dark:bg-[#393939]' : 'bg-transparent'}  p-2 rounded-lg hover:scale-105 duration-150 transition-transform">
       <slot />
     </button>
   </Tooltip.Trigger>
-  <Tooltip.Content class="bg-[#393939] font-bold border-gray-100 border-opacity-10">
+  <Tooltip.Content class="bg-[#efefef] dark:bg-[#393939] font-bold border-gray-600 border-opacity-10">
     <h4 class="text-xs">{text}</h4>
   </Tooltip.Content>
 </Tooltip.Root>

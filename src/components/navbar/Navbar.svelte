@@ -6,8 +6,9 @@
 </script>
 
 <nav
-  class="sticky top-2 px-4 text-xl py-2 backdrop-blur-md border-b border-gray-600 border-opacity-50 transition-all flex justify-between {y > 70
-    ? 'bg-[#292929]/90 rounded-xl'
+  class="sticky top-2 px-4 text-xl py-2 backdrop-blur-md border-b border-gray-300 dark:border-gray-600 border-opacity-50 transition-all flex justify-between {y >
+  70
+    ? 'bg-[#ededed] dark:bg-[#292929]/90 rounded-xl'
     : 'bg-transparent'}"
 >
   <section class="flex gap-3">
