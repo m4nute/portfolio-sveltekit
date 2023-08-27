@@ -6,7 +6,7 @@
 <main class="bg-white text-black dark:bg-[#1c1c1c] min-h-screen dark:text-white">
   <div class="max-w-2xl mx-auto">
     <Navbar />
-    <div class="px-3 pt-8">
+    <div class="px-4 pt-10">
       <slot />
     </div>
   </div>

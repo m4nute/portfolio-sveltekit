@@ -1,3 +1,7 @@
-<div class="prose-invert prose">
-  <h2>Manuel Gudiño</h2>
+<script>
+  import Intro from "../components/homepage/Intro.svelte"
+</script>
+
+<div>
+  <Intro />
 </div>
