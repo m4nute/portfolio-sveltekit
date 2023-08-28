@@ -6,7 +6,8 @@
 
 <Tooltip.Root openDelay={120}>
   <Tooltip.Trigger>
-    <button class="{y > 70 ? 'bg-[#e1e1e1] dark:bg-[#393939]' : 'bg-transparent'}  p-2 rounded-lg hover:scale-105 duration-150 transition-transform">
+    <!-- bg-[#e1e1e1] dark:bg-[#393939] -->
+    <button class="{y > 70 ? '' : 'bg-transparent'} p-2 rounded-lg hover:scale-105 duration-150 transition-transform">
       <slot />
     </button>
   </Tooltip.Trigger>
