@@ -22,7 +22,7 @@
     <ExperienceCard
       project="Talking Cart"
       role="Software Developer"
-      description={`Built key functionalities & UX of the chatbot. Engineered the backend to handle & optimize the "brain" logic.`}
+      description={`Built key functionalities & UX of the chatbot. Engineered the backend to handle & optimise the "brain" logic.`}
       link="https://talkingcart.com"
       badges={["Next.js", "TypeScript", "OpenAI API", "Problem Solving"]}
       duration="Jun - Jul 2023"
