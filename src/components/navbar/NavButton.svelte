@@ -2,12 +2,16 @@
   import * as Tooltip from "$lib/shadcn/ui/tooltip"
   export let text: string
   export let y: number
+  export let link: string
 </script>
 
 <Tooltip.Root openDelay={120}>
   <Tooltip.Trigger>
     <!-- bg-[#e1e1e1] dark:bg-[#393939] -->
-    <button class="{y > 70 ? '' : 'bg-transparent'} p-2 rounded-lg hover:scale-105 duration-150 transition-transform">
+    <button
+      on:click={() => window.open(link, "_blank")}
+      class="{y > 70 ? '' : 'bg-transparent'} p-2 rounded-lg hover:scale-105 duration-150 transition-transform"
+    >
       <slot />
     </button>
   </Tooltip.Trigger>
