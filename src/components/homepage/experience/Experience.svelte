@@ -2,7 +2,7 @@
   import ExperienceCard from "./ExperienceCard.svelte"
 </script>
 
-<h5 class="underline mb-3">Experience</h5>
+<h5 class="underline underline-offset-4 mb-3">My Work</h5>
 <ol>
   <li class="flex flex-col gap-y-4">
     <ExperienceCard
