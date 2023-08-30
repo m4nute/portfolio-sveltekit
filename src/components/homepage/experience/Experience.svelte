@@ -9,7 +9,7 @@
       project="JustProats"
       role="Software Developer"
       description="Built a fully customised Shopify Store from scratch, as the new site for the business. Will be available soon :)"
-      link="https://justproats.com"
+      link="https://ea0a91-2.myshopify.com"
       badges={["Shopify", "Tailwind CSS", "TypeScript", "React.js"]}
       duration="Jul 2023 - Present"
       achievements={[
