@@ -6,6 +6,10 @@
   import Stack from "../components/homepage/Stack.svelte"
 </script>
 
+<svelte:head>
+  <title>Manuel Gudiño</title>
+</svelte:head>
+
 <div>
   <Intro />
   <br /><br />

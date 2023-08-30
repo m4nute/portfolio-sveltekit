@@ -3,6 +3,10 @@
   import ProjectCard from "../../components/homepage/projects/ProjectCard.svelte"
 </script>
 
+<svelte:head>
+  <title>Manuel Gudiño | Projects</title>
+</svelte:head>
+
 <a class="text-gray-400 inline-block hover:text-black dark:hover:text-white transition-all" href="/">
   <MoveLeft />
 </a>
