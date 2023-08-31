@@ -7,10 +7,10 @@
   <li class="flex flex-col gap-y-4">
     <ProjectCard
       project="This Portfolio"
-      description="Personal Portfolio where I showcase my work, projects and skills. Also learned Svelte and testing along the way!"
+      description="Personal Portfolio where I showcase my work, projects and skills."
       date="Aug 2023"
-      link="https://manuelgudino.vercel.app/"
-      badges={["SvelteKit", "Tailwind CSS", "Playwright", "Vitest"]}
+      link="https://mgud.vercel.app/"
+      badges={["SvelteKit", "Tailwind CSS", "TypeScript"]}
       repo="https://github.com/m4nute/portfolio-sveltekit"
     />
     <ProjectCard
